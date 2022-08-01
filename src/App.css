@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 .App {
+    
 height: 100vh;
 width: 100%;
 display: flex;
@@ -10,7 +9,6 @@ padding-top: 120px;
 background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 .heading{
-font-family: 'Pacifico', cursive;
 font-size: 35px;
 }
 .container{
@@ -28,29 +26,24 @@ height: 36px;
 .middle,.right{
 width: 120px;
 }
-.switch{
-padding: 5px;
-margin-top: 25px;
-background-color: rgb(226, 252, 184);
-border-radius: 50%;
-cursor: pointer;
-}
+
 .result{
 box-sizing: border-box;
 width: 800px;
 padding-left: 30px;
 }
 button{
+color: white;
 width: 100px;
 height: 30px;
 font-weight: bold;
 font-size: 20px;
-border: 2px solid forestgreen;
-background-color: rgb(226, 252, 184);
+border: 2px solid #739d55;
+background-color: #739d55;
 cursor: pointer;
 }
-p,h3, button, .switch{
-color: forestgreen;
+p,h3{
+color: #739d55;
 }
 p{
 font-size: 30px;
